@@ -1,0 +1,22 @@
+{
+  "name": "eliudnoriega",
+  "version": "1.1.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "login": "firebase login",
+    "init": "firebase init",
+    "deploy": "firebase deploy"
+  },
+  "keywords": [],
+  "author": "eliudnoriega@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-tools": "^8.1.1"
+  }
+}
